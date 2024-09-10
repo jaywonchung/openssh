@@ -6,6 +6,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.11.2](https://github.com/jaywonchung/openssh/compare/v0.11.1...v0.11.2) - 2024-09-10
+
+### Other
+
+- Update `openssh-mux-client` in Cargo.toml
+- `try_read` would block
+- Extra LF by echo?
+- What is getting read in?
+- Try `UnixStream::connect`
+- Fix native mux impl
+- Rename API and to `read` 0 test in remote forward test
+- Update cfg
+- Update cfg
+- Update cfg
+- Update cfg
+- Update cfg
+- Update cfg
+- Fix local forwarding test
+- Ignore cancel tests for native-mux
+- Fix test
+- Fix test
+- Update doc comment
+- Implement cancel_port_forwarding for process-mux
+
 ## [0.11.1](https://github.com/openssh-rust/openssh/compare/v0.11.0...v0.11.1) - 2024-09-08
 
 ### Other
